@@ -1,0 +1,111 @@
+.arta_woo_table {
+    width: 100%;
+    /* padding: 0 20px; */
+    overflow: auto;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+}
+
+.arta_woo_table thead tr {
+    background: #ffffff;
+    border-bottom: 1px solid #1c1c1c;
+}
+
+.arta_woo_table thead tr th {
+    text-align: right;
+    padding: 7px;
+    white-space: nowrap;
+}
+
+.arta_woo_table tbody td {
+    padding: 7px;
+    font-size: 14px;
+}
+
+.arta_woo_table_nav {
+    padding: 10px 0;
+}
+
+.arta_woo_table_nav div {
+    display: inline-block;
+}
+
+.variation_rows {
+    background: #d0d0d0 !important;
+}
+
+.variation_rows td {
+    border: 0 !important;
+}
+
+.arta_woo_table_nav div {
+    margin-left: 20px;
+}
+
+.submit_arta_woo {
+    position: fixed;
+    width: 20%;
+    background: #FFF;
+    bottom: 20px;
+    z-index: 1000;
+    padding: 0 30px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.submit_arta_woo_button {
+    margin: 20px 0;
+    border: 0;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+    background: darkorange;
+    cursor: pointer;
+}
+
+@media screen and (max-device-width: 800px) {
+    .arta_woo_table_nav input, .arta_woo_table_nav div, .arta_woo_table_nav select {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        min-width: 100%;
+    }
+
+    .arta_woo_table_nav {
+        display: unset !important;
+    }
+
+    .submit_arta_woo_button {
+        width: 80%;
+    }
+    .submit_arta_woo {
+        width: unset!important;
+        bottom: 0!important;
+        border-radius: 0!important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .arta_woo_table_nav input, .arta_woo_table_nav div, .arta_woo_table_nav select {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        min-width: 100%;
+    }
+
+    .arta_woo_table_nav {
+        display: unset !important;
+    }
+
+    .submit_arta_woo_button {
+        width: 80%;
+    }
+    .submit_arta_woo {
+        width: unset!important;
+        bottom: 0!important;
+        border-radius: 0!important;
+    }
+}
